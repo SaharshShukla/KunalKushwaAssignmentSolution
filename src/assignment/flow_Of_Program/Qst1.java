@@ -6,7 +6,7 @@ public class Qst1 {
         Scanner scn=new Scanner(System.in);
         System.out.println("Enter any year: ");
         int yr=scn.nextInt();
-        if(yr%4==0){
+        if(yr % 4 == 0){
             System.out.println("Entered year is leap year");
         }else{
             System.out.println("Entered year is normal year");
